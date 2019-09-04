@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'gradle-plugin-example'
+include 'hello-plugin',
+        'hello-plugin-demo'

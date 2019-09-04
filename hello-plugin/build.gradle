@@ -1,0 +1,17 @@
+plugins {
+    id 'maven-publish'
+    id 'java-gradle-plugin'
+}
+
+gradlePlugin {
+    plugins {
+        helloGradle {
+            id = "com.example.hello-gradle"
+            implementationClass = "com.example.gradle.HelloGradlePlugin"
+        }
+    }
+}
+
+dependencies {
+    testCompileOnly(gradleTestKit())
+}

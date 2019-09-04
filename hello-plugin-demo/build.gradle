@@ -1,0 +1,4 @@
+plugins {
+    id 'java'
+    id 'com.example.hello-gradle' version '1.0-SNAPSHOT'
+}
